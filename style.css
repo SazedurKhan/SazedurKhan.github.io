@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.height70 {
+    height: 70px;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.primarycolor {
+    background-color: #d3d3d3;
+}
+
+.secondarycolor {
+    background-color: #000000;
+}
+
+.border {
+    border-color: #000000;
+}
+
+.background-box {
+    background-color: #aca9a9ce;
+    height: calc(100vh - 70px); /* Full height minus the navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.textcol {
+    color: white;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .primarycolor {
+    background-color: #444;
+}
+
+.dark-mode .background-box {
+    background-color: #222;
+}
+
+#darkModeToggle {
+    
+    background-color: #444;
+    color: white;
+    border: none;
+}
+
+#darkModeToggle:hover {
+    background-color: #555;
+}
